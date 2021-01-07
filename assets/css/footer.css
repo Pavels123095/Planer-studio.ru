@@ -1,0 +1,672 @@
+.planer-footer-section {
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.planer-footer-section .planer-footer-section-wrapper {
+  background-color: #4c4c4c;
+  color: #fff;
+  padding-left: 140px;
+  padding-right: 60px;
+  background-image: url("../img/footer/footer_line.png");
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.planer-case-section-footer .planer-footer-section-wrapper {
+  background-image: url('../img/cases/back-case.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+  padding-top: 1%;
+  background-color: transparent;
+}
+
+.planer-case-section-footer .planer-footer-section-wrapper .planer-footer-promotion-wrapper .footer-breadcrumbs {
+  width: 75%;
+  padding-top: 1%;
+  margin: 0;
+  padding-bottom: 3%;
+  margin-top: -4%;
+}
+
+.planer-footer-content-promotion {
+  width: 100%;
+  margin: 0;
+}
+.planer-footer-content-promotion .planer-title-page h1 {
+  font-size: 2.5rem;
+  font-family: "Pobeda";
+  font-weight: 700;
+  color: #3c80b4;
+}
+.planer-footer-content-promotion .planer-description-promotion {
+  padding: 10px;
+  width: 70%;
+}
+.planer-footer-content-promotion .planer-description-visited-site {
+  padding: 10px;
+  padding-left:0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.planer-visited-footer-item-future {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 15px;
+}
+.planer-visited-footer-item-future > i {
+  color: #577fb1;
+  font-size: 32px;
+  margin: 0;
+  margin-right: 10px;
+  width: 10%;
+  text-align: center;
+}
+.planer-visited-footer-item-future > span {
+  font-size: 1.2rem;
+  font-family: "Pobeda";
+  font-weight: 500;
+}
+.planer-visited-footer-item-future > span > strong {
+  font-family: inherit;
+  font-weight: 900;
+}
+
+
+.planer-footer-content-promotion .planer-description-promotion p {
+  font-size: 1.3rem;
+  font-family: "Pobeda";
+  font-weight: 600;
+  line-height: 1.25;
+  padding: 5px 0;
+}
+.planer-footer-section .planer-footer-section-wrapper .planer-footer-logo {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.planer-footer-section .planer-footer-section-wrapper .planer-footer-logo img {
+  width: 100%;
+  height: auto;
+}
+.planer-footer-section .planer-footer-section-wrapper .planer-footer-logo a {
+  width: 20%;
+  display: block;
+}
+.planer-footer-section-wrapper .planer-footer-logo .planer-footer-navigation {
+    width: 85%;
+}
+.planer-footer-section-wrapper .planer-footer-logo .planer-footer-navigation .planer-footer-nav {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  font-family: "Pobeda";
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1em;
+  font-style: normal;
+  margin-left: auto;
+}
+.planer-footer-section-wrapper .planer-footer-logo .planer-footer-navigation .planer-footer-nav .menu-item {
+  margin: 0 10px;
+  display: inline-block;
+}
+.planer-footer-section-wrapper .planer-footer-logo .planer-footer-navigation .planer-footer-nav .menu-item > a {
+  color: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.planer-footer-section-wrapper .planer-footer-logo .planer-footer-navigation .planer-footer-nav .menu-item > a:hover {
+  color: #ad2f13;
+}
+.planer-footer-section-wrapper .planer-footer-logo .planer-footer-navigation .planer-footer-nav .menu-item > a > img {
+  color: #ad2f13;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.planer-footer-section .planer-footer-section-wrapper .planer-footer-description-text {
+  padding: 0;
+  margin: 0;
+}
+.planer-footer-section .planer-footer-section-wrapper .planer-footer-description-text
+  strong {
+  font-family: "Pobeda";
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+.planer-footer-section .planer-footer-section-wrapper .planer-footer-description-text p {
+  font-family: "Pobeda";
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.planer-footer-info-text-shadow {
+  width: 100%;
+  margin-top: 0.5rem;
+  font-family: "Pobeda";
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.planer-footer-icon {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-right: auto;
+  text-align: center;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  margin-left: -2px;
+  color: #fff;
+  background-color: #3c80b4;
+}
+.planer-footer-icon::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 100%;
+  left: 0;
+  background-color: #45658c;
+  -webkit-clip-path: polygon(0 0, 100% 100%, 100% 0);
+  clip-path: polygon(0 0, 100% 100%, 100% 0);
+}
+.planer-footer-content-info-contact > * {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.planer-footer-content-info-contact > .planer-footer-info-adress {
+  width: 45%;
+}
+.planer-footer-section .planer-footer-section-wrapper .planer-footer-content-info-contact > * > a {
+  color: #fff;
+}
+.planer-footer-section .planer-footer-section-wrapper .planer-footer-content-info-contact > * > a:hover {
+  color: #ad2f13;
+}
+.planer-footer-section .planer-footer-section-wrapper .planer-footer-content-info-contact .planer-footer-text-down {
+    font-size: 0.8rem;
+    font-family: "Pobeda";
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+.planer-footer-private-politic {
+  margin: 20px auto;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.planer-contact-form-footer {
+  display: none;
+}
+
+.planer-modal-message {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  -webkit-transition-property: z-index;
+  -o-transition-property: z-index;
+  transition-property: z-index;
+  z-index: 4;
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.planer-modal-message .planer-modal-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  margin: 60px auto;
+  background-color: #fff;
+  border: 1px solid #45658c;
+  border-radius: 20px;
+  padding: 10px 0px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  position: relative;
+}
+.planer-modal-message .planer-modal-wrapper span {
+  width: 100%;
+  display: block;
+  padding: 10px 0px;
+  margin: 10px auto;
+  font-size: 1.5rem;
+}
+.planer-modal-message .planer-modal-wrapper .planer-modal-close {
+  display: block;
+  border: 0;
+  width: 60px;
+  height: 60px;
+  background: none;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 1%;
+  z-index: 9;
+  outline: none;
+}
+.planer-group-messages {
+  width: 100%;
+  text-align: center;
+  margin: 10px auto;
+}
+.planer-btn-message {
+  font-size: 2rem;
+  border: none;
+  background-color: #3c80b4;
+  color: #fff;
+  margin: 0 auto;
+}
+
+
+.planer-form-group-footer .btn-planer-question {
+  border: none;
+  padding: 15px 20px;
+  display: block;
+  width: 160px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  font-family: "Pobeda";
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  -webkit-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  -webkit-transition-duration: .3s;
+  -o-transition-duration: .3s;
+  transition-duration: .3s;
+  transition: all .3s ease;
+  background: #e8411a;
+}
+.planer-form-group-footer .btn-planer-question:hover {
+  -webkit-transform: rotate(-1deg) scale(1.1);
+  -ms-transform: rotate(-1deg) scale(1.1);
+  transform: rotate(-1deg) scale(1.1);
+}
+.planer-form-group-footer .btn-planer-question::before {
+  content: "";
+  width: 30px;
+  height: 10px;
+  position: absolute;
+  display: block;
+  top: calc(100% - 1px);
+  left: 0;
+  clip-path: polygon(23px 10px, 30px 0px, 0px 0px);
+  background-color: #e8411a;
+}
+.planer-form-group-footer .btn-planer-question:after {
+  content: "";
+  position: absolute;
+  width: 170px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #e8411a;
+  clip-path: polygon(0% 100%,calc(100% - 10px) 100%,100% 50%,calc(100% - 10px) 0%,0% 0%);
+  z-index: -1;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .planer-footer-navigation {
+    display: none;
+  }
+  .planer-footer-section-wrapper .planer-footer-logo .planer-footer-navigation .planer-footer-nav {
+      flex-wrap: wrap;
+  }
+  .planer-footer-section .planer-footer-section-wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 70px;
+  }
+  .planer-footer-section .planer-footer-section-wrapper .planer-footer-logo a {
+    width: 100%;
+  }
+  .planer-footer-section .planer-footer-section-wrapper .planer-footer-logo {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .planer-footer-section .planer-footer-section-wrapper .planer-footer-description-text {
+    padding: 10px;
+    padding-left: 15px;
+  }
+  .planer-footer-section .planer-footer-section-wrapper .planer-footer-description-text p,
+  .planer-footer-section .planer-footer-section-wrapper .planer-footer-description-text strong {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  .planer-footer-section .planer-footer-section-wrapper .planer-footer-content-info-contact {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    padding-left: 10%;
+    padding-top: 4%;
+  }
+  .planer-footer-section .planer-footer-section-wrapper .planer-footer-content-info-contact > * {
+    width: 100%;
+    margin: 0;
+    font-size: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3% 5%;
+  }
+  .planer-footer-section .planer-footer-section-wrapper .planer-footer-content-info-contact > * > a {
+    width: 75%;
+    font-size: 18px;
+    margin: 0 auto;
+  }
+  .planer-footer-icon {
+    margin: 0;
+    margin-right: 5px;
+  }
+  .planer-footer-info-text-shadow {
+    font-size: 18px;
+    width: 75%;
+    margin: 0 auto;
+  }
+  .planer-footer-section .planer-footer-section-wrapper .planer-footer-content-info-contact .planer-footer-text-down {
+    width: 100%;
+    margin: 0;
+    padding-left: 50px;
+  }
+  .planer-footer-section .planer-footer-section-wrapper .planer-footer-content-info-contact > span {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+  .planer-footer-private-politic {
+    padding: 10% 5%;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .planer-footer-section .planer-footer-section-wrapper .planer-footer-logo {
+    width: 40%;
+    margin: 0;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  .planer-footer-section
+    .planer-footer-section-wrapper
+    .planer-footer-logo
+    img {
+    width: 100%;
+    height: auto;
+  }
+  .planer-footer-section .planer-footer-section-wrapper {
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 10px;
+  }
+  .planer-footer-content-info-contact > * {
+    width: 45%;
+    text-align: center;
+  }
+  .planer-footer-content-info-contact > .planer-footer-info-adress {
+    width: 100%;
+  }
+  .planer-footer-icon {
+    margin: 5px auto;
+  }
+  .planer-footer-section
+    .planer-footer-section-wrapper
+    .planer-footer-description-text {
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .planer-footer-section .planer-footer-section-wrapper .planer-footer-logo {
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .planer-footer-section
+    .planer-footer-section-wrapper
+    .planer-footer-logo
+    img {
+    width: 100%;
+    height: auto;
+  }
+  .planer-footer-section .planer-footer-section-wrapper {
+    height: 100%;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .planer-footer-section .planer-footer-section-wrapper {
+    padding-top: 0px;
+    padding-left: 110px;
+  }
+  .planer-footer-private-politic {
+    padding: 25px 0;
+  }
+  .planer-footer-private-politic span {
+    font-size: 1.3rem;
+  }
+  .planer-footer-section .planer-footer-section-wrapper .planer-footer-logo {
+    margin: 0;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .planer-footer-content-info-contact > * {
+    width: 25%;
+    text-align: left;
+  }
+  .planer-footer-content-info-contact > .planer-footer-info-adress {
+    width: 45%;
+  }
+  .planer-footer-icon {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    text-align: center;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    margin-left: -2px;
+    color: #fff;
+    background-color: #3c80b4;
+  }
+  .planer-footer-icon::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 100%;
+    left: 0;
+    background-color: #45658c;
+    -webkit-clip-path: polygon(0 0, 100% 100%, 100% 0);
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
+  }
+
+  .planer-footer-section
+    .planer-footer-section-wrapper
+    .planer-footer-description-text
+    p {
+    line-height: 1.2;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .planer-case-section-footer .planer-footer-section-wrapper .planer-footer-promotion-wrapper .footer-breadcrumbs {
+    margin-top: -4%;
+  }
+  .planer-footer-section .planer-footer-section-wrapper .planer-footer-logo {
+    margin-top: -100px;
+    padding: 10px;
+    flex-wrap: nowrap;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .planer-footer-section .planer-footer-section-wrapper {
+    padding-top: 10%;
+  }
+  .planer-footer-section .planer-footer-section-wrapper {
+    display: flex;
+    height: 100vh;
+    padding-bottom: 10px;
+  }
+  .planer-footer-section .planer-footer-section-wrapper .planer-footer-wrapper-info {
+    width: 70%;
+    padding: 10px;
+  }
+  .planer-footer-section .planer-footer-section-wrapper .planer-footer-description-text {
+    width: 96%;
+    margin: 0;
+  }
+  .planer-footer-content-info-contact > .planer-footer-info-adress {
+    width: 100%;
+  }
+  .planer-contact-form-footer {
+    display: flex;
+    padding: 10% 0;
+    flex-basis: calc(40% + 80px);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-right: 40px;
+    margin-left: -80px;
+    margin-top: -11%;
+    height: 110vh;
+    margin-right: -2%;
+    background-color: #3c80b4;
+    background-image: url("../img/footer/footer_back2.png");
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0, 80px 0);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 80px 0);
+  }
+  .planer-contact-form-footer .planer-question-form-footer {
+    width: 92%;
+    color: #fff;
+    margin: auto;
+    padding-left: 150px;
+    text-align: center;
+  }
+  .planer-contact-form-footer .planer-question-form-footer legend {
+    font-family: "Pobeda";
+    font-size: 3rem;
+    color: #fff;
+  }
+  .planer-contact-form-footer .planer-question-form-footer p {
+    font-family: "Pobeda", Helvetica, sans-serif;
+    line-height: 1.2;
+    font-size: 0.8rem;
+  }
+  .planer-contact-form-footer .planer-question-form-footer input,
+  select {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .planer-contact-form-footer .planer-question-form-footer input:invalid {
+    border-color: #ad2f13;
+  }
+  .planer-contact-form-footer .planer-question-form-footer select {
+    text-align: center;
+    padding-left: 33%;
+    font-family: "Pobeda";
+    color: #808080;
+  }
+  .planer-form-group-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+  }
+  .planer-form-group-footer p {
+    text-align: right;
+    color: #859fc2;
+  }
+  .planer-form-group-footer i {
+    text-align: right;
+    color: #859fc2;
+    margin: 0 5px;
+  }
+  .planer-footer-content-info-contact > * {
+    width: 50%;
+    padding: 0 5px;
+  }
+
+  .planer-footer-private-politic {
+    position: absolute;
+    bottom: 0;
+    width: 55%;
+    /* margin: 0 auto; */
+    padding: 0;
+    /* padding-top: 5%; */
+    text-align: center;
+  }
+
+    @media only screen (min-height: 768px) {
+        .planer-footer-section .planer-footer-section-wrapper .planer-footer-logo {
+            width: 100%;
+            margin-top: -10%;
+        }
+    }
+}
+
+
+
+@media only screen and (min-width: 1440px)  { 
+
+    .planer-footer-section .planer-footer-section-wrapper .planer-footer-description-text p,
+    .planer-footer-section .planer-footer-section-wrapper .planer-footer-description-text strong {
+        font-size: 2rem;
+    }
+
+}

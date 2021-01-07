@@ -1,0 +1,295 @@
+.planer-header-section {
+  width: 100%;
+  position: absolute;
+}
+
+.planer-header-fixed-top {
+  background-color: #f27254 !important;
+  box-shadow: 15px 0px 40px 15px #a8a8a8;
+  color: #fff;
+  z-index: 999;
+}
+.customize-support .planer-header-fixed-top .planer-header-content {
+  padding-top: 38px;
+}
+.planer-header-fixed-top .planer-header-content {
+  background-color: #f27254 !important;
+  box-shadow: 5px 0px 30px 5px #a8a8a8;
+  border-bottom: 1px solid #818181;
+  color: #fff;
+  padding-top: 10px !important;
+  padding-bottom: 0px !important;
+}
+/* .planer-header-fixed-top .planer-header-content .planer-header-timework > i {
+  color: #fff;
+}
+.planer-header-fixed-top .planer-header-content.planer-header-timework .planer-time-work {
+  color: #fff;
+  text-transform: uppercase;
+} */
+.planer-header-fixed-top .planer-header-content .planer-header-navigation .planer-navbar-dropdown .nav-dropdown {
+  color: #ad2f13;
+  background-color: #ff5f0d;
+}
+.planer-header-fixed-top .planer-header-content .planer-header-navigation .planer-navbar-dropdown .nav-dropdown:hover {
+  color: #fff;
+  background: #577fb1;
+}
+.planer-header-content .planer-header-navigation .planer-navbar-dropdown .nav-dropdown {
+  border: none;
+  color: #fff;
+  background: #577fb1;
+  cursor: pointer;
+  font-family: "Pobeda";
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  margin-left: auto;
+}
+.planer-header-content .planer-header-navigation .planer-navbar-dropdown .nav-dropdown:hover {
+  color: #ad2f13;
+  background-color: #ff5f0d;
+}
+.planer-header-fixed-top .planer-header-navigation .planer-navbar .planer-nav {
+  color: #fff;
+}
+.planer-header-fixed-top .planer-header-navigation .planer-navbar .planer-nav li > a > img {
+  filter: brightness(5);
+  margin-right: 5px;
+}
+.planer-header-navigation .planer-navbar .planer-nav li > a > img  {
+  margin-right: 5px;
+}
+.planer-header-fixed-top .planer-header-navigation .planer-navbar .planer-nav li > a {
+  color: #fff;
+  font-size: 1.3rem;
+  letter-spacing: 0.1em;
+  font-family: "Pobeda";
+  font-weight: 700;
+}
+.planer-header-fixed-top .planer-header-navigation .planer-navbar .planer-nav li > a:hover {
+  text-decoration: underline;
+}
+.planer-header-fixed-top .planer-header-navigation .planer-navbar .planer-nav li > a .active {
+    text-decoration: underline;
+}
+.planer-header-navigation .planer-navbar .planer-nav li > .active {
+  border-bottom: 1px solid #d30505;
+  color: #d30505;
+}
+.planer-header-section .planer-header-content {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: 999;
+  padding: 10px 5px;
+}
+.planer-header-section .planer-header-wrapper {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.planer-header-content .planer-header-timework .planer-time-work {
+  color: #d30505;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.planer-header-content .planer-header-timework span {
+  display: block;
+  font-size: 0.7rem;
+}
+.planer-header-content .planer-header-timework > i {
+  color: #bb0000;
+  font-size: 20px;
+}
+.planer-header-navigation .planer-navbar .planer-nav {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: "Pobeda";
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1em;
+  font-style: normal;
+  color: #000;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.planer-header-fixed-top .planer-header-content {
+  padding: 5px;
+}
+.customize-support .planer-header-fixed-top .planer-header-wrapper .planer-header-content .planer-header-navigation {
+  padding-top: 10px;
+}
+.planer-header-content .planer-header-navigation {
+  width: 100%;
+}
+.planer-header-content .planer-header-navigation .planer-navbar {
+  display: none;
+}
+.planer-header-content .planer-header-navigation .planer-navbar-dropdown {
+  display: block;
+}
+.planer-header-content .planer-header-timework span {
+  display: block;
+  width: 32%;
+  margin: 0;
+  font-size: 1rem;
+}
+.planer-header-content .planer-header-timework .planer-time-work {
+  display: block;
+  width: 50%;
+  margin: 0;
+  font-size: 1rem;
+}
+.planer-header-content .planer-header-timework {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 0;
+}
+.planer-header-content .planer-header-timework > * {
+  margin: 0 5px;
+}
+
+@media only screen and (min-width: 480px) {
+  .planer-header-content .planer-header-navigation .planer-navbar {
+    display: none;
+  }
+  .planer-header-content .planer-header-timework {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .planer-header-content .planer-header-timework > * {
+    margin: 0 10px;
+  }
+  .planer-header-content .planer-header-navigation {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .customize-support .planer-header-fixed-top .planer-header-wrapper .planer-header-content .planer-header-navigation {
+    padding-top: 38px;
+  }
+  .planer-header-content .planer-header-navigation .planer-navbar {
+    display: none;
+  }
+  .planer-header-content .planer-header-timework {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .planer-header-content .planer-header-timework > * {
+    margin: 0 10px;
+  }
+  .planer-header-content .planer-header-navigation {
+    width: 100%;
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .customize-support .planer-header-section .planer-header-content {
+    padding-top: 36px;
+  }
+  .customize-support .planer-header-fixed-top.planer-header-content {
+    padding-top: 36px;
+  }
+  .planer-header-content .planer-header-navigation .planer-navbar {
+    display: block;
+  }
+  .planer-header-content .planer-header-navigation .planer-navbar-dropdown {
+    display: none;
+  }
+  .planer-header-content .planer-header-timework {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 0;
+  }
+  .planer-header-content .planer-header-navigation {
+    width: 100%;
+    padding: 10px;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .planer-navbar .planer-nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .planer-navbar .planer-nav li > a {
+    line-height: 1.5;
+    font-family: "Pobeda";
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 0.1em;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* .planer-navbar .planer-nav li > a::before {
+    color: #f27254;
+    content: "\e900";
+    font-family: "icomoon";
+    display: inline-block;
+    margin-right: 5px;
+  } */
+  .planer-navbar .planer-nav li > a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+  }
+  .planer-header-content .planer-header-timework .planer-time-work {
+    width: 100%;
+  }
+  .planer-header-content .planer-header-timework span {
+    width: 70%;
+    margin: 0;
+    font-size: 1.3rem;
+  }
+  .planer-header-content .planer-header-timework .planer-time-work {
+    width: 100%;
+    font-size: 1.3rem;
+  }
+
+  .planer-header-fixed-top .planer-header-navigation .planer-navbar .planer-nav li > a {
+    line-height: 1.5;
+    font-family: "Pobeda";
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 0.1em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .planer-header-fixed-top .planer-header-navigation .planer-navbar .planer-nav li > a > img {
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .planer-header-content .planer-header-navigation .planer-navbar {
+    display: block;
+  }
+  .planer-header-content .planer-header-navigation .planer-navbar-dropdown {
+    display: none;
+  }
+  /* .planer-header-content .planer-header-timework {
+    padding-left: 95px;
+  } */
+}
+
+
